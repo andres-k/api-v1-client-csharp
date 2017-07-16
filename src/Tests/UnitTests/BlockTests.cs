@@ -133,7 +133,7 @@ namespace Info.Blockchain.API.Tests.UnitTests
             {
                 using (BlockchainApiHelper apiHelper = UnitTestUtil.GetFakeHelper())
                 {
-                    await apiHelper.blockExplorer.GetMultiAddressAsync(new List<string>() {"address"}, 60);
+                    await apiHelper.blockExplorer.GetMultiAddressAsync(new List<string>() {"address"}, 101);
                 }
             });
         }
